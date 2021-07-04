@@ -40,3 +40,4 @@ Temporary Items
 
 # File-based project format
 *.iws
+/.phpunit.result.cache
