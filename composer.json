@@ -1,0 +1,24 @@
+{
+  "name": "jefhar/yacht-see",
+  "description": "An implementation of game that is a development of earlier dice games such as Poker Dice, Yacht and Generala. It is also similar to Yatzy, which is popular in Scandinavia.",
+  "minimum-stability": "stable",
+  "license": "wtfpl",
+  "authors": [
+    {
+      "name": "Jeff Harris",
+      "email": "jeff@jeffharris.us"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {"Jefhar\\Yahtsee\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Jefhar\\tests\\": "tests/"}
+  }
+}
