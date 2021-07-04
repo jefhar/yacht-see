@@ -16,7 +16,7 @@
     "phpunit/phpunit": "^9"
   },
   "autoload": {
-    "psr-4": {"Jefhar\\Yahtsee\\": "src/"}
+    "psr-4": {"Jefhar\\Yachtsee\\": "src/"}
   },
   "autoload-dev": {
     "psr-4": {"Jefhar\\tests\\": "tests/"}
